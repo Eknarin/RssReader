@@ -158,8 +158,7 @@ public class ReaderUI extends JFrame implements Runnable{
 		centerPanel.add(urlField);
 		centerPanel.add(okButton);
 
-		okButton.addActionListener(new ActionListener() {
-			
+		okButton.addActionListener(new ActionListener() {	
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
